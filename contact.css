@@ -1,0 +1,169 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    background-image: url(back1.JPG);
+}
+html {
+  overflow: auto;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-------- TRANSITION------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>------ --> */
+.work {
+  color: #FBFBFB;
+  position: relative;
+  font-size: 120px;
+  animation: work 2s 2s infinite;
+  opacity: 0.15;
+  font-weight: bolder;
+  background: none! important;
+}
+@keyframes work {
+  2%{
+    transform: rotateX(20deg) skewX(100deg);
+  }
+  3%{
+    transform: rotateX(0deg) skewX(0deg);
+  }
+}
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-------- About CONTAINER------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>------ --> */
+
+
+.content {
+  max-width: 95%;
+  margin: auto;
+  height: 100em;
+  padding: 10px;
+  position: relative;
+  background: #ffffff;
+}
+.content *{
+    background: #ffffff;
+}
+
+.nav{
+    list-style-type: none;
+    position: relative;
+}
+.nav-link{
+    
+      float: left;
+      padding:30px;
+      position: relative;
+      left: 20%;
+}
+.nav-link a {
+    
+    position: relative;
+    text-decoration: none;
+    color: #f0b7a1;
+    font-weight: bolder;
+}
+
+.nav-link a:hover{
+    
+    color: #896152;
+  }
+
+
+#work{
+    color: #997822;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/*<<<<<<<<<<<<<<<<<<<< FORM <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=email]{
+    
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+    
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #a8d3e6;
+  color: #F9DBB9;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 120%;
+  font-weight: bolder;
+    
+}
+
+input[type=submit]:hover {
+  background-color: #a8d3e6;
+}
+
+input[type=email]:hover {
+    
+  background-color: #a8d3e6;
+}
+
+input[type=text]:hover {
+    
+  background-color: #a8d3e6;
+}
+textarea:hover{
+   background-color: #a8d3e6;
+}
+
+input[type=submit]:hover{
+  background-color: #F9DBB9;
+  color: #a8d3e6;
+    
+}
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<< FOOTER SECTION >>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+footer{
+    position: absolute;
+    bottom: 5px;
+    margin: 10px;
+    left: 40%;
+}
+footer div ul{
+    list-style-type: none;
+}
+footer div ul li{
+    position: relative;
+    float: left;
+    margin: 5%;
+    left: 20%;
+    
+}
+footer p{
+    float: left;
+}
+
+footer p a{
+    text-decoration: none;
+    color: #f0b7a1;
+    font-weight: bolder;
+    
+}
+footer p a:visited{
+    color: red;
+    
+}
+footer p a:hover {
+    
+    color: #896152;  
+}

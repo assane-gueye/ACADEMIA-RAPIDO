@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+     background-image: url(back1.JPG);
+}
+html {
+  overflow: auto;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-------- TRANSITION------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>------ --> */
+.aboutMe {
+  color: #FBFBFB;
+  position: relative;
+  font-size: 120px;
+  animation: welcome 2s 2s infinite;
+  opacity: 0.15;
+  font-weight: bolder;
+  background: none! important;
+}
+@keyframes welcome {
+  2%{
+    transform: rotateX(20deg) skewX(100deg);
+  }
+  3%{
+    transform: rotateX(0deg) skewX(0deg);
+  }
+}
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-------- About CONTAINER------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>------ --> */
+
+
+.content {
+  max-width: 95%;
+  margin: auto;
+  height: 100em;
+  padding: 10px;
+  position: relative;
+  background: #a8d3e6;
+}
+.content *{
+    background: #a8d3e6;
+}
+
+.nav{
+    list-style-type: none;
+    position: relative;
+}
+.nav-link{
+    
+      float: left;
+      padding:30px;
+      position: relative;
+      left: 20%;
+}
+.nav-link a {
+    
+    position: relative;
+    text-decoration: none;
+    color: #f0b7a1;
+    font-weight: bolder;
+}
+.nav-link a:hover{
+    
+    color: #896152;
+  }
+#aboutMe{
+    color: red;
+    text-align: center;
+    margin-top: 50px;
+}
+p{
+    text-align: center;
+    font-size: 25px;
+}
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<< FOOTER SECTION >>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+footer{
+    position: absolute;
+    bottom: 5px;
+    margin: 10px;
+    left: 25%;
+}
+footer div ul{
+    list-style-type: none;
+}
+footer div ul li{
+    position: relative;
+    float: left;
+    margin: 5%;
+    left: 20%;
+    
+}
+footer p{
+    float: left;   
+}
+
+footer p a{
+    text-decoration: none;
+    color: #f0b7a1;
+    font-weight: bolder;
+    
+}
+footer p a:visited{
+    color: red;
+    
+}
+footer p a:hover {
+    
+    color: #896152;  
+}
